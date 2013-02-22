@@ -8,7 +8,7 @@ So I made simple perl scripts to make them valid and well-formed; I think it's b
 Run the scripts in bash on any linux like follows.
 
        perl correct_poor.pl poor3.xml poor3.corrected.xml
-       
+
        perl correct_rich.pl rich.xml rich.corrected.xml
        
 It will make another file with corrected ampersands and added DOCTYPE and DTD definitons.
