@@ -2,6 +2,10 @@ $richpoor = $ARGV[0];
 $from = $ARGV[1];
 $to = $ARGV[2];
 
+if ($richpoor ne "rich" && $richpoor ne "poor") {
+    die "first argument must be  either 'rich' or 'poor'";
+}
+
 
 
 #ok, this script is pretty embarassing and very quick and dirty but well I just want to get it done
