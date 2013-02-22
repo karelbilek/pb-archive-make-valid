@@ -3,9 +3,9 @@ PB archiv correcting scripts
 
 Some people told me that the TPB archives are not either well formed or valid XMLs.
 
-So I made simple perl scripts to make them valid and well-formed; I think it's better than uploading it again.
+So I made simple perl script to make them valid and well-formed; I think it's better than uploading it again.
 
-Run the scripts in bash on any linux like follows.
+Run the script in bash on any linux like follows.
 
        perl correct.pl poor poor3.xml poor.corrected.xml
 
